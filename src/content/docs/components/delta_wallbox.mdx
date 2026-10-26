@@ -110,7 +110,7 @@ number:
 
 - **delta_wallbox_id** (*Optional*, [ID](/guides/configuration-types/#id)): The `delta_wallbox` hub. Only needed
   with more than one.
-- **max_current** (*Optional*, Number): Sets the maximum charging current in amperes (A), The slider offers 6 to 32 A.
+- **max_current** (*Optional*, Number): Sets the maximum charging current in amperes (A), from 6 to 32 A.
   The charger's configured maximum (set by its DIP switches) is an additional upper limit: requests above it are
   reduced to that value. The number has no value until the charger has been read after connecting.
   All options from [Number](/components/number/).
